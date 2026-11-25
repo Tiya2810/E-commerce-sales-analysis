@@ -463,14 +463,14 @@ if __name__ == "__main__":
     # default filename label (“app”) shown by Streamlit's automatic pages.
     navigation = st.navigation(
         [
-            st.Page(lambda: run_page("Executive Overview"), title="E-Commerce Sales Dashboard", icon=":material/dashboard:", url_path="dashboard", default=True),
-            st.Page(lambda: run_page("Sales Analysis"), title="Sales Analysis", icon=":material/trending_up:", url_path="sales-analysis"),
-            st.Page(lambda: run_page("Profitability Analysis"), title="Profitability Analysis", icon=":material/paid:", url_path="profitability-analysis"),
-            st.Page(lambda: run_page("Customer Analysis"), title="Customer Analysis", icon=":material/groups:", url_path="customer-analysis"),
-            st.Page(lambda: run_page("Product Analysis"), title="Product Analysis", icon=":material/inventory_2:", url_path="product-analysis"),
-            st.Page(lambda: run_page("Regional Analysis"), title="Regional Analysis", icon=":material/public:", url_path="regional-analysis"),
-            st.Page(lambda: run_page("Shipping & Fulfillment"), title="Shipping & Fulfillment", icon=":material/local_shipping:", url_path="shipping-fulfillment"),
-            st.Page(lambda: run_page("Business Insights"), title="Business Insights", icon=":material/lightbulb:", url_path="business-insights"),
+            st.Page(lambda: run_page("Executive Overview"), title="E-Commerce Sales Dashboard", icon="📊", url_path="dashboard", default=True),
+            st.Page(lambda: run_page("Sales Analysis"), title="Sales Analysis", icon="📈", url_path="sales-analysis"),
+            st.Page(lambda: run_page("Profitability Analysis"), title="Profitability Analysis", icon="💰", url_path="profitability-analysis"),
+            st.Page(lambda: run_page("Customer Analysis"), title="Customer Analysis", icon="👥", url_path="customer-analysis"),
+            st.Page(lambda: run_page("Product Analysis"), title="Product Analysis", icon="📦", url_path="product-analysis"),
+            st.Page(lambda: run_page("Regional Analysis"), title="Regional Analysis", icon="🌎", url_path="regional-analysis"),
+            st.Page(lambda: run_page("Shipping & Fulfillment"), title="Shipping & Fulfillment", icon="🚚", url_path="shipping-fulfillment"),
+            st.Page(lambda: run_page("Business Insights"), title="Business Insights", icon="💡", url_path="business-insights"),
         ],
         position="sidebar",
     )
